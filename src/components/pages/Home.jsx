@@ -1,8 +1,14 @@
-import React from 'react'
+import Banner from "../layouts/Banner"
+import GetCerto from "../layouts/GetCerto"
+
+
 
 const Home = () => {
   return (
-    <div className='bg-red-600'>Home</div>
+    <>
+    <Banner/>
+    <GetCerto/>
+    </>
   )
 }
 
