@@ -81,13 +81,13 @@ const GetCerto = () => {
           </div>
         </Flex>
         <Flex className={"gap-x-6 mt-15 justify-center"}>
-          <Button>
+          <Button className={'py-3 px-5 hover:bg-[#FFC247] hover:border-[#FFC247]'}>
             Get Certo for iPhone
             <span className="inline-flex align-middle ml-3">
               <FaArrowRightLong />
             </span>
           </Button>
-          <Button>Get Certo for Android</Button>
+          <Button className={'py-3 px-5 hover:bg-[#FFC247] hover:border-[#FFC247]'}>Get Certo for Android</Button>
         </Flex>
       </div>
     </div>

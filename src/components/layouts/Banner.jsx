@@ -1,9 +1,10 @@
 
-import Button from "../Button";
+import { FaArrowRightLong } from "react-icons/fa6";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
 import mobile from "/src/assets/mobile.png"
+import Button from "../Button";
 
 
 const Banner = () => {
@@ -25,6 +26,11 @@ const Banner = () => {
             <Image src={mobile}/>
           </div>
         </Flex>
+      <Flex className={'gap-x-6'}>
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">Get Certo for iPhone<FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300"/></Button>
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">Get Certo for Android<FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300"/></Button>
+      
+      </Flex>
       </Container>
     </div>
   );

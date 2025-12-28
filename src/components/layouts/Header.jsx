@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Buttontwo from "../Buttontwo";
+import Button from "../Button";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
@@ -36,7 +36,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="">
-            <Buttontwo>Sign in</Buttontwo>
+            <Button className={'py-2 px-4 hover:border-[#4335DE] hover:text-white hover:bg-[#4335DE]'}>Sign in</Button>
           </div>
         </Flex>
       </Container>
