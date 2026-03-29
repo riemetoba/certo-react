@@ -18,16 +18,16 @@ const Header = () => {
           </div>
           <div className="w-[40%]">
             <ul className="flex gap-x-10">
-              <li className="text-[19px] text-common font-Inter font-extrabold">
+              <li className="text-[19px] text-common font-Inter font-extrabold cursor-pointer">
                 iPhone
               </li>
-              <li className="text-[19px] text-common font-Inter font-extrabold">
+              <li className="text-[19px] text-common font-Inter font-extrabold cursor-pointer">
                 Android
               </li>
-              <li className="text-[19px] text-common font-Inter font-extrabold">
+              <li className="text-[19px] text-common font-Inter font-extrabold cursor-pointer">
                 Help
               </li>
-              <li className="text-[19px] text-common font-Inter font-extrabold flex items-center gap-3">
+              <li className="text-[19px] text-common font-Inter font-extrabold flex items-center gap-3 cursor-pointer">
                 Company
                 <span>
                   <FaAngleDown />
@@ -36,7 +36,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="">
-            <Button className={'py-2 px-4 hover:border-[#4335DE] hover:text-white hover:bg-[#4335DE]'}>Sign in</Button>
+            <Button className={'py-2 px-4 hover:border-[#4335DE] hover:text-white hover:bg-[#4335DE] cursor-pointer'}>Sign in</Button>
           </div>
         </Flex>
       </Container>
