@@ -1,5 +1,6 @@
 import Banner from "../layouts/Banner"
 import GetCerto from "../layouts/GetCerto"
+import Help from "../layouts/Help"
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
     <>
     <Banner/>
     <GetCerto/>
+    <Help/>
     </>
   )
 }
