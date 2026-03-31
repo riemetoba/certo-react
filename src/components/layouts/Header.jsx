@@ -29,12 +29,16 @@ const Header = () => {
 
           {/* Mobile icon */}
           <div className="flex items-center gap-4">
-            <Button className="hidden md:block py-2 px-4 hover:bg-[#4335DE] hover:text-white">Sign in</Button>
-            <GiHamburgerMenu className="md:hidden text-2xl cursor-pointer" onClick={() => setIsOpen(!isOpen)} />
+            <Button className="hidden md:block py-2 px-4 hover:bg-[#4335DE] hover:text-white">
+              Sign in
+            </Button>
+            <GiHamburgerMenu
+              className="md:hidden text-2xl cursor-pointer"
+              onClick={() => setIsOpen(!isOpen)}
+            />
           </div>
         </Flex>
-
-        {/* Mobile menubar */}
+        {/* ===============>  */}
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-white p-5 shadow-md md:hidden text-center z-50">
             <ul className="flex flex-col gap-y-4 font-bold text-common">
@@ -42,7 +46,11 @@ const Header = () => {
               <li>Android</li>
               <li>Help</li>
               <li>Company</li>
-              <li><Button className="w-full py-2 bg-[#4335DE] text-white">Sign in</Button></li>
+              <li>
+                <Button className="w-full py-2 bg-[#4335DE] text-white">
+                  Sign in
+                </Button>
+              </li>
             </ul>
           </div>
         )}
