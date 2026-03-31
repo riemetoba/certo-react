@@ -5,10 +5,12 @@ import Flex from "../Flex";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
 import { FaAngleDown } from "react-icons/fa";
+import { useState } from "react";
 
 const Header = () => {
+  const[isOpen, setIsOpen] = useState(false);
   return (
-    <div className="py-4 bg-[#E7EFFA]">
+    <header className="py-4 bg-[#E7EFFA]">
       <Container>
         <Flex>
           <div className="w-[50%]">
@@ -40,7 +42,7 @@ const Header = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+    </header>
   );
 };
 
