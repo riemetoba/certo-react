@@ -9,14 +9,14 @@ import Button from "../Button";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('/src/assets/bannerBg.jpg')] py-[200px] bg-cover bg-no-repeat bg-center">
+    <div className="bg-[url('/src/assets/bannerBg.jpg')] py-18 lg:py-[200px] bg-cover bg-no-repeat bg-center">
       <Container>
-        <Flex>
+        <Flex className={"md:gap-x-16"}>
           <div className="">
-            <h1 className="text-6xl font-Inter font-extrabold w-[700px] leading-[75px]">
-              Your mobile privacy is our mission
+            <h1 className="text-3xl md:text-6xl font-Inter font-extrabold leading-[50px] md:leading-[75px]">
+              Your mobile privacy <br /> is our mission
             </h1>
-            <p className="text-[20px] font-Inter w-[560px] leading-[30px] my-20">
+            <p className="text-base md:text-[20px] font-Inter w-[560px] leading-[30px] my-20">
               Think your phone has been hacked? Our trusted apps make it easy
               for you to scan, detect and remove threats from your iPhone and
               Android devices.
