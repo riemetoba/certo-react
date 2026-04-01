@@ -47,7 +47,7 @@ const Header = () => {
               <li>Help</li>
               <li>Company</li>
               <li>
-                <Button className="w-full py-2 bg-[#4335DE] text-white">
+                <Button className="px-6 py-2 hover:bg-[#4335DE] hover:text-white">
                   Sign in
                 </Button>
               </li>
