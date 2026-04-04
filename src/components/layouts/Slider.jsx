@@ -6,6 +6,7 @@ export default function Slider() {
          <h2 className="font-Inter text-[36px] ml-33 font-extrabold mb-10">Loved by thousands of iPhone <br />and Android users alike</h2>
          {/* main flex start */}
          <div className="flex items-center">
+          {/* slider one  */}
             <div className="bg-white p-10 rounded-4xl w-[20%]">
                 <div className="flex items-center gap-x-2">
                     <FaStar className="text-[#FFC247] text-2xl"/>
