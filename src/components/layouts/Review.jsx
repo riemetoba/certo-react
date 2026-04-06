@@ -7,7 +7,7 @@ export default function Review() {
          {/* main flex start */}
          <div className="flex items-center gap-x-7">
            {/* slider one  */}
-            <div className="bg-white p-7 rounded-4xl w-[20%] h-[306px]">
+            <div className="bg-white p-7 rounded-4xl w-[20%] h-[308px]">
                 <div className="flex items-center gap-x-2">
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
@@ -15,11 +15,11 @@ export default function Review() {
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
                 </div>
-                <p className="text-base font-Inter my-8">Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.</p>
+                <p className="text-base font-Inter my-5">Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.</p>
                 <p>colinandmandy94</p>
             </div>
           {/* slider two  */}
-            <div className="bg-white p-7 rounded-4xl w-[20%] h-[306px]">
+            <div className="bg-white p-7 rounded-4xl w-[20%] h-[308px]">
                 <div className="flex items-center gap-x-2">
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
@@ -32,7 +32,7 @@ export default function Review() {
             </div>
          
           {/* slider three  */}
-            <div className="bg-white p-7 rounded-4xl w-[20%] h-[306px]">
+            <div className="bg-white p-7 rounded-4xl w-[20%] h-[308px]">
                 <div className="flex items-center gap-x-2">
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
@@ -40,11 +40,11 @@ export default function Review() {
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
                 </div>
-                <p className="text-base font-Inter my-8">This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.</p>
+                <p className="text-base font-Inter my-5">This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.</p>
                 <p>Phillip Colligan</p>
             </div>
               {/* slider four  */}
-            <div className="bg-white p-7 rounded-4xl w-[20%] h-[306px]">
+            <div className="bg-white p-7 rounded-4xl w-[20%] h-[308px]">
                 <div className="flex items-center gap-x-2">
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
@@ -52,8 +52,8 @@ export default function Review() {
                     <FaStar className="text-[#FFC247] text-2xl"/>
                     <FaStar className="text-[#FFC247] text-2xl"/>
                 </div>
-                <p className="text-base font-Inter my-8">Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.</p>
-                <p>colinandmandy94</p>
+                <p className="text-base font-Inter my-5">I wish they had a VPN, I’d be signing up for that too. Apart from that the app is top notch. I had Certo on my last phone and it was the first app I put on this phone when I got it from the store. The scanner and other parts of the app are really easy and simple to use, even for a non-techie like me</p>
+                <p>Leslie Carrillo</p>
             </div>
          </div>
     </section>
