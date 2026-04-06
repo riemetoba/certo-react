@@ -93,27 +93,14 @@ const GetCerto = () => {
         </Flex>
         {/* flex two end */}
         {/* Button  */}
-        <Flex
-          className={
-            "gap-y-4 sm:gap-y-0 sm:gap-x-6 mt-12 md:mt-15 flex-col sm:flex-row md:justify-center items-center"
-          }
-        >
-          <Button
-            className={
-              "w-full sm:w-auto py-3 px-5 hover:bg-[#FFC247] hover:border-[#FFC247] flex items-center justify-center"
-            }
-          >
+         <Flex className={"md:gap-x-6 md:flex-row flex-col gap-y-7 md:gap-y-0 mt-12 justify-center"}>
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">
             Get Certo for iPhone
-            <span className="inline-flex align-middle ml-3">
-              <FaArrowRightLong />
-            </span>
+            <FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300" />
           </Button>
-          <Button
-            className={
-              "w-full sm:w-auto py-3 px-5 hover:bg-[#FFC247] hover:border-[#FFC247]"
-            }
-          >
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">
             Get Certo for Android
+            <FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300" />
           </Button>
         </Flex>
       </div>
