@@ -43,6 +43,18 @@ export default function Review() {
                 <p className="text-base font-Inter my-8">This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.</p>
                 <p>Phillip Colligan</p>
             </div>
+              {/* slider four  */}
+            <div className="bg-white p-7 rounded-4xl w-[20%] h-[306px]">
+                <div className="flex items-center gap-x-2">
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                </div>
+                <p className="text-base font-Inter my-8">Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.</p>
+                <p>colinandmandy94</p>
+            </div>
          </div>
     </section>
   )
