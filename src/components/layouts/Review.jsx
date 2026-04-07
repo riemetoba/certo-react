@@ -55,7 +55,7 @@ export default function Review() {
                 <p>Jennifer Black</p>
             </div>
          </SwiperSlide>
-          {/* slider three  */}
+          {/* slider three start */}
           <SwiperSlide>
             <div className="bg-white p-7 rounded-4xl h-[308px]">
                 <div className="flex items-center gap-x-2">
