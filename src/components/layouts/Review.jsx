@@ -27,7 +27,7 @@ export default function Review() {
             className="mySwiper"
           >
          <div className="flex items-center gap-x-7">
-           {/* slider one  */}
+           {/* slider one start */}
            <SwiperSlide>
             <div className="bg-white p-7 rounded-4xl h-[308px]">
                 <div className="flex items-center gap-x-2">
