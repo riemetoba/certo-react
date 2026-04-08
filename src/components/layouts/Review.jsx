@@ -113,8 +113,11 @@ export default function Review() {
          </SwiperSlide>
          </div>
          </Swiper>
-         <div className="flex items-center pt-3">
+         <div className="flex items-center pt-3 gap-x-10">
           <h5 className="font-Inter text-common text-[23px] ml-33 font-extrabold mb-10">Featured in:</h5>
+          <div className="flex items-center gap-x-5">
+            
+          </div>
          </div>
     </section>
   )
