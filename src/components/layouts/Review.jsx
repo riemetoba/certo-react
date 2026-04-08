@@ -97,6 +97,20 @@ export default function Review() {
                 <p>Jennifer Black</p>
             </div>
          </SwiperSlide>
+         {/* slider six start  */}
+          <SwiperSlide>
+            <div className="bg-white p-7 rounded-4xl h-[308px]">
+                <div className="flex items-center gap-x-2">
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                    <FaStar className="text-[#FFC247] text-2xl"/>
+                </div>
+                <p className="text-base font-Inter my-5">Love the ease and efficiency. Awesome app. Very informative and insightful if wanting to know more about your device. The added breach check.is a great bonus. Check any email of they’ve ever been named in a data breach from years ago. Sweet tool. Love it highly recommend.</p>
+                <p>Jennifer Black</p>
+            </div>
+         </SwiperSlide>
          </div>
          </Swiper>
     </section>
