@@ -9,6 +9,7 @@ import newYorkPost from "../../assets/newYorkPost.png"
 import financialTimes from "../../assets/financialTimes.png"
 import readerDigest from "../../assets/readerDigest.png"
 import zdNet from "../../assets/zdNet.png"
+import wired from "../../assets/wired.png"
 
 export default function Review() {
   return (
@@ -119,14 +120,15 @@ export default function Review() {
          </SwiperSlide>
          </div>
          </Swiper>
-         <div className="flex items-center pt-10 gap-x-10">
-          <h5 className="font-Inter text-common text-[23px] ml-33 font-extrabold">Featured in:</h5>
+         <div className="flex items-center pt-10 gap-x-10 ml-33">
+          <h5 className="font-Inter text-common text-[23px] font-extrabold">Featured in:</h5>
           <div className="flex gap-x-7">
             <Image src={cnba}/>
             <Image src={newYorkPost}/>
             <Image src={financialTimes}/>
             <Image src={readerDigest}/>
             <Image src={zdNet}/>
+            <Image src={wired}/>
           </div>
          </div>
     </section>
