@@ -8,6 +8,7 @@ import cnba from "../../assets/cnba.png"
 import newYorkPost from "../../assets/newYorkPost.png"
 import financialTimes from "../../assets/financialTimes.png"
 import readerDigest from "../../assets/readerDigest.png"
+import zdNet from "../../assets/zdNet.png"
 
 export default function Review() {
   return (
@@ -125,6 +126,7 @@ export default function Review() {
             <Image src={newYorkPost}/>
             <Image src={financialTimes}/>
             <Image src={readerDigest}/>
+            <Image src={zdNet}/>
           </div>
          </div>
     </section>
