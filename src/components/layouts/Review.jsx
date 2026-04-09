@@ -3,6 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Image from "../Image";
+import cnba from "../../assets/cnba.png"
+import newYorkPost from "../../assets/newYorkPost.png"
 
 export default function Review() {
   return (
@@ -113,10 +116,11 @@ export default function Review() {
          </SwiperSlide>
          </div>
          </Swiper>
-         <div className="flex items-center pt-3 gap-x-10">
-          <h5 className="font-Inter text-common text-[23px] ml-33 font-extrabold mb-10">Featured in:</h5>
-          <div className="flex items-center gap-x-5">
-            
+         <div className="flex items-center pt-10 gap-x-10">
+          <h5 className="font-Inter text-common text-[23px] ml-33 font-extrabold">Featured in:</h5>
+          <div className="flex gap-x-7">
+            <Image src={cnba}/>
+            <Image src={newYorkPost}/>
           </div>
          </div>
     </section>
