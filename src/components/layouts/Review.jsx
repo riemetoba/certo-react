@@ -28,7 +28,7 @@ export default function Review() {
             pagination={{ clickable: true }}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 4,
               },
             }}
             className="mySwiper"
