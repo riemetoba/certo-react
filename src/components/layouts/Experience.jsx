@@ -1,7 +1,10 @@
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
+import Button from "../Button";
+import { FaArrowRightLong } from "react-icons/fa6";
 import experience from "../../assets/experience.png"
+
 
 
 export default function Experience() {
@@ -17,6 +20,16 @@ export default function Experience() {
             <Image src={experience}/>
            </div>
         </Flex>
+           <div className={"flex flex-col gap-y-10"}>
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">
+            Get Certo for iPhone
+            <FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300" />
+          </Button>
+          <Button className="py-3 px-5 border-2 hover:bg-[#FFC247] hover:border-[#FFC247] duration-300 font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent flex items-center group">
+            Get Certo for Android
+            <FaArrowRightLong className="group-hover:ml-3 opacity-0 group-hover:opacity-100 duration-300" />
+          </Button>
+        </div>
        </Container>
     </section>
   )
